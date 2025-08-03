@@ -13,7 +13,7 @@ def setup_gemini_api():
     if api_key_env:
         api_key = api_key_env
     else:
-        api_key = "AIzaSyCv83BMclwG4vhLPNCUbMmhXWoBQaK5XWo"
+        api_key = "Paste your API"
         print("Warning: Using hardcoded API key. For production, use environment variables.")
     
     client = genai.Client(api_key=api_key)
